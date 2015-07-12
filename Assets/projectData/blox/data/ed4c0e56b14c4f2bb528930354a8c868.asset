@@ -1,0 +1,385 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1513856851, guid: d9e9359c406eec943ad3457bdb9664db, type: 3}
+  m_Name: ed4c0e56b14c4f2bb528930354a8c868
+  m_EditorClassIdentifier: 
+  id:
+    savedIdent: ed4c0e56b14c4f2bb528930354a8c868
+  statesData:
+  - name: Default_State
+    eventsData:
+    - name: On FixedUpdate
+      fullname: Common/On FixedUpdate
+      eventHandler: BloxEngine.Blox_CommonEventHandler, BloxEngine, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      active: 1
+      _ed_viewOffs: {x: 40, y: 21.5161133}
+      blockData:
+        blocks:
+        - blockType: 2
+          idx_blockType: 0
+          idx_fullname: 0
+          active: 1
+          idx_firstChild: 1
+          idx_next: -1
+          idx_edpos: -1
+          idx_methodObj: -1
+          idx_Params: 
+          idx_returnType: 0
+          dataArea: 2
+          objRefNames: []
+          idx_dataIdx: 12
+          customBlockFields: 
+        - blockType: 3
+          idx_blockType: 1
+          idx_fullname: 1
+          active: 1
+          idx_firstChild: -1
+          idx_next: 4
+          idx_edpos: -1
+          idx_methodObj: -1
+          idx_Params: 0200000003000000
+          idx_returnType: -1
+          dataArea: 0
+          objRefNames: []
+          idx_dataIdx: -1
+          customBlockFields: 
+        - blockType: 1
+          idx_blockType: 2
+          idx_fullname: 2
+          active: 1
+          idx_firstChild: -1
+          idx_next: -1
+          idx_edpos: -1
+          idx_methodObj: -1
+          idx_Params: 
+          idx_returnType: 0
+          dataArea: 2
+          objRefNames: []
+          idx_dataIdx: 0
+          customBlockFields: 
+        - blockType: 1
+          idx_blockType: 2
+          idx_fullname: 3
+          active: 1
+          idx_firstChild: -1
+          idx_next: -1
+          idx_edpos: -1
+          idx_methodObj: -1
+          idx_Params: 
+          idx_returnType: 1
+          dataArea: 2
+          objRefNames: []
+          idx_dataIdx: 1
+          customBlockFields: 
+        - blockType: 3
+          idx_blockType: 2
+          idx_fullname: 4
+          active: 1
+          idx_firstChild: -1
+          idx_next: 9
+          idx_edpos: -1
+          idx_methodObj: 5
+          idx_Params: 07000000
+          idx_returnType: 2
+          dataArea: 2
+          objRefNames: []
+          idx_dataIdx: 5
+          customBlockFields: 
+        - blockType: 3
+          idx_blockType: 1
+          idx_fullname: 1
+          active: 1
+          idx_firstChild: -1
+          idx_next: -1
+          idx_edpos: -1
+          idx_methodObj: -1
+          idx_Params: 06000000ffffffff
+          idx_returnType: -1
+          dataArea: 0
+          objRefNames: []
+          idx_dataIdx: -1
+          customBlockFields: 
+        - blockType: 1
+          idx_blockType: 2
+          idx_fullname: 2
+          active: 1
+          idx_firstChild: -1
+          idx_next: -1
+          idx_edpos: -1
+          idx_methodObj: -1
+          idx_Params: 
+          idx_returnType: 0
+          dataArea: 2
+          objRefNames: []
+          idx_dataIdx: 2
+          customBlockFields: 
+        - blockType: 3
+          idx_blockType: 2
+          idx_fullname: 5
+          active: 1
+          idx_firstChild: -1
+          idx_next: -1
+          idx_edpos: -1
+          idx_methodObj: -1
+          idx_Params: 08000000
+          idx_returnType: 2
+          dataArea: 2
+          objRefNames: []
+          idx_dataIdx: 4
+          customBlockFields: 
+        - blockType: 1
+          idx_blockType: 2
+          idx_fullname: 2
+          active: 1
+          idx_firstChild: -1
+          idx_next: -1
+          idx_edpos: -1
+          idx_methodObj: -1
+          idx_Params: 
+          idx_returnType: 0
+          dataArea: 2
+          objRefNames: []
+          idx_dataIdx: 3
+          customBlockFields: 
+        - blockType: 3
+          idx_blockType: 2
+          idx_fullname: 6
+          active: 1
+          idx_firstChild: -1
+          idx_next: 14
+          idx_edpos: -1
+          idx_methodObj: 10
+          idx_Params: 0c000000
+          idx_returnType: 2
+          dataArea: 2
+          objRefNames: []
+          idx_dataIdx: 9
+          customBlockFields: 
+        - blockType: 3
+          idx_blockType: 1
+          idx_fullname: 1
+          active: 1
+          idx_firstChild: -1
+          idx_next: -1
+          idx_edpos: -1
+          idx_methodObj: -1
+          idx_Params: 0b000000ffffffff
+          idx_returnType: -1
+          dataArea: 0
+          objRefNames: []
+          idx_dataIdx: -1
+          customBlockFields: 
+        - blockType: 1
+          idx_blockType: 2
+          idx_fullname: 2
+          active: 1
+          idx_firstChild: -1
+          idx_next: -1
+          idx_edpos: -1
+          idx_methodObj: -1
+          idx_Params: 
+          idx_returnType: 0
+          dataArea: 2
+          objRefNames: []
+          idx_dataIdx: 6
+          customBlockFields: 
+        - blockType: 3
+          idx_blockType: 2
+          idx_fullname: 5
+          active: 1
+          idx_firstChild: -1
+          idx_next: -1
+          idx_edpos: -1
+          idx_methodObj: -1
+          idx_Params: 0d000000
+          idx_returnType: 2
+          dataArea: 2
+          objRefNames: []
+          idx_dataIdx: 8
+          customBlockFields: 
+        - blockType: 1
+          idx_blockType: 2
+          idx_fullname: 2
+          active: 1
+          idx_firstChild: -1
+          idx_next: -1
+          idx_edpos: -1
+          idx_methodObj: -1
+          idx_Params: 
+          idx_returnType: 0
+          dataArea: 2
+          objRefNames: []
+          idx_dataIdx: 7
+          customBlockFields: 
+        - blockType: 3
+          idx_blockType: 2
+          idx_fullname: 7
+          active: 1
+          idx_firstChild: -1
+          idx_next: -1
+          idx_edpos: -1
+          idx_methodObj: -1
+          idx_Params: 0f000000ffffffff
+          idx_returnType: -1
+          dataArea: 0
+          objRefNames: []
+          idx_dataIdx: -1
+          customBlockFields: 
+        - blockType: 1
+          idx_blockType: 3
+          idx_fullname: 8
+          active: 1
+          idx_firstChild: -1
+          idx_next: -1
+          idx_edpos: -1
+          idx_methodObj: -1
+          idx_Params: 1000000012000000ffffffff
+          idx_returnType: 3
+          dataArea: 0
+          objRefNames: []
+          idx_dataIdx: -1
+          customBlockFields: 
+        - blockType: 3
+          idx_blockType: 1
+          idx_fullname: 1
+          active: 1
+          idx_firstChild: -1
+          idx_next: -1
+          idx_edpos: -1
+          idx_methodObj: -1
+          idx_Params: 11000000ffffffff
+          idx_returnType: -1
+          dataArea: 0
+          objRefNames: []
+          idx_dataIdx: -1
+          customBlockFields: 
+        - blockType: 1
+          idx_blockType: 2
+          idx_fullname: 2
+          active: 1
+          idx_firstChild: -1
+          idx_next: -1
+          idx_edpos: -1
+          idx_methodObj: -1
+          idx_Params: 
+          idx_returnType: 0
+          dataArea: 2
+          objRefNames: []
+          idx_dataIdx: 10
+          customBlockFields: 
+        - blockType: 3
+          idx_blockType: 4
+          idx_fullname: 9
+          active: 1
+          idx_firstChild: -1
+          idx_next: -1
+          idx_edpos: -1
+          idx_methodObj: -1
+          idx_Params: 13000000ffffffffffffffff
+          idx_returnType: -1
+          dataArea: 0
+          objRefNames: []
+          idx_dataIdx: -1
+          customBlockFields: 
+        - blockType: 1
+          idx_blockType: 2
+          idx_fullname: 2
+          active: 1
+          idx_firstChild: -1
+          idx_next: -1
+          idx_edpos: -1
+          idx_methodObj: -1
+          idx_Params: 
+          idx_returnType: 0
+          dataArea: 2
+          objRefNames: []
+          idx_dataIdx: 11
+          customBlockFields: 
+        blockTypes:
+        - BloxEngine.Blox_Comment_Block, BloxEngine
+        - BloxEngine.Blox_TVarVal_Block, BloxEngine
+        - BloxEngine.BloxBlock, BloxEngine
+        - BloxEngine.Blox_MUL_Block, BloxEngine
+        - BloxEngine.Blox_LVarVal_Block, BloxEngine
+        fullnames:
+        - Common/Comment
+        - Variables/Temp Value
+        - System.String, mscorlib
+        - UnityEngine.Vector3, UnityEngine
+        - "UnityEngine.Vector3, UnityEngine\x1EF\x1Ex"
+        - "UnityEngine.Input, UnityEngine\x1EM\x1EGetAxis\x1ESystem.String, mscorlib"
+        - "UnityEngine.Vector3, UnityEngine\x1EF\x1Ez"
+        - "UnityEngine.Rigidbody, UnityEngine\x1EM\x1EAddForce\x1EUnityEngine.Vector3,
+          UnityEngine\x1DUnityEngine.ForceMode, UnityEngine"
+        - "Maths/a \xD7 b (multiplication)"
+        - Variables/Local Value
+        edpos: []
+        dataTypes:
+        - System.String, mscorlib
+        - UnityEngine.Vector3, UnityEngine
+        - System.Single, mscorlib
+        - System.Object, mscorlib
+        unityObjects: []
+        fieldsData:
+        - name: 
+          data: 6265776567696e67
+          ids: 
+          szs: 
+        - name: 
+          data: 000000000000000000000000
+          ids: 
+          szs: 
+        - name: 
+          data: 6265776567696e67
+          ids: 
+          szs: 
+        - name: 
+          data: 486f72697a6f6e74616c
+          ids: 
+          szs: 
+        - name: 
+          data: 00000000
+          ids: 
+          szs: 
+        - name: 
+          data: 00000000
+          ids: 
+          szs: 
+        - name: 
+          data: 6265776567696e67
+          ids: 
+          szs: 
+        - name: 
+          data: 566572746963616c
+          ids: 
+          szs: 
+        - name: 
+          data: 00000000
+          ids: 
+          szs: 
+        - name: 
+          data: 00000000
+          ids: 
+          szs: 
+        - name: 
+          data: 6265776567696e67
+          ids: 
+          szs: 
+        - name: 
+          data: 736e656c68656964
+          ids: 
+          szs: 
+        - name: 
+          data: 4265776567696e67206f7665726e656d656e2076616e20686f72697a6f6e74616c6520656e20766572746963616c65206173
+          ids: 
+          szs: 
+  _ed_dirty: 0

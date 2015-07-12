@@ -1,0 +1,114 @@
+-------------------------------------------------------------------------------
+Blox Visual Scripting System - Version and Change Notes
+-------------------------------------------------------------------------------
+
+## Version 2.2.0 ##
+
+- Changed the way Temp Variables works internally to allow for recursive calling of Custom Events without the Temp Variable values being effected in unpredictable ways.
+
+## Version 2.1.9 ##
+
+- Fixed: ElseIF Block gave problems when an ElseIF was attached under another ElseIF.
+
+## Version 2.1.8 ##
+
+- Fixed: Problems regarding Array and List Blocks.
+- Fixed: Problem with adding some Block types to Context field if strict mode is enabled.
+
+## Version 2.1.7 ##
+
+- This update requires Unity 5.1.
+- Component BloxEventTriggerData renamed to BloxEventTrigger.
+- Added public TriggerEvent() function to BloxEventTrigger component which allows for triggering a Blox Event without having to pass arguments to any function.
+
+## Version 2.1.6 ##
+
+- Updated: The Temp, Local and Global variables can be changed in the inspector at runtime. These changes are not applied to the original definitions and is only there to make testing easier.
+
+## Version 2.1.5 ##
+
+- Fixed: Blocks could loose references to scene objects, prefabs, and assets during runtime.
+- Fixed: The `On Became Visible` and `On Became Invisible` events were swapped around.
+
+## Version 2.1.4 ##
+
+- Added: Self-GameObject and Self-Blox Blocks under Values to make it easier to get a reference to the object that the Blox is on.
+
+## Version 2.1.3 ##
+
+- Fixed: Problems that would occur in final builds with objects that are sharing the same Blox.
+
+## Version 2.1.2 ##
+
+- Added: Blox Event Trigger Data component which can be used as field when calling the RunEvent function from a Unity Event.
+- Updated: Blox.RunEvent() now accepts BloxEventTriggerData as a parameter. This is in addition to the RunEvent() that takes an event name as parameter.
+
+## Version 2.1.1 ##
+
+- Fixed: The default scanner options could not be turned off after last update.
+- Added: Collider related Blocks to scanner list.
+
+## Version 2.1.0 ##
+
+- Updated: The Blox Scanner now saves all its settings in the projectData folder.
+- Added: Tools > Blox > Clean Data files (to remove unused data files).
+
+## Version 2.0.9 ##
+
+- Fixed: Local Variable definitions where being deleted when you viewed the inspector of a Blox prefab during runtime.
+
+## Version 2.0.8 ##
+
+  MAKE A BACKUP BEFORE APPLYING THIS UPDATE
+- Changed: The data folder was changed from "Assets/plyoung/_projectData" to "Assets/projectData". Blox will move the data to the new folder after this update is applied.
+
+## Version 2.0.7 ##
+
+- Fixed: Error in Block Data serialiser that could prevent stand-alone builds from working correctly.
+- Fixed: Error in generated scripts when dealing with Component and non-Component types in Block context.
+- Fixed: Error in generated scripts when Event sets its own temporary variables.
+- Fixed: Error in generated scripts when using "switch all -> script mode".
+- Fixed: Script generator was generating scripts for deactivated events.
+
+## Version 2.0.6 ##
+
+- Fixed: Error message that would come up if en Event is triggered while the object is disabled. For example the "On Disable" Event would be called in such a case.
+- Fixed: Some Value Blocks where showing up with the -empty- label while they where not empty.
+- Fixed: Awake and Enable Events would not always be triggered when expected, depending on the order in Event list.
+
+## Version 2.0.5 ##
+
+- Update: Changed the Blox Scanner settings' custom list to be per-project specific.
+- Fixed: Namespace.* scanner format did not work correctly when the namespace is in the Assembly-CSharp assembly.
+
+## Version 2.0.4 ##
+
+Fixed: Unity crash during start-up if the Blocks Window was not docked.
+
+## Version 2.0.3 ##
+
+- Fixed `State Enter` Event not being triggered when in Script mode.
+- Fixed problem with the `On Awake` Event not being triggered.
+- Added the `On State Exit` Event.
+- Added RunEvent(name) to Blox API.
+
+## Version 2.0.2 ##
+
+- Fixed: Resolved problem with the Blox Editor making Play mode slower to initialise.
+- Fixed: After pressing Play a Boolean Variable created in Inspector reverted to False if it was set to True.
+- Fixed: It is now possible to copy/ move the Blox component without it clearing existing States and Events.
+- Fixed: Error in serialization of custom Blocks' public fields.
+- Update: Made it easier to quickly spot which Block fields where assigned a value Block and which are using the default unassigned value.
+- Update: Changed sorting of Blocks in Blocks Window so that it is easier to find relevant Blocks.
+- Update: The Value Blocks now only shows the object name since the icon implies the type.
+- Added: Added option to Block Context Menu to auto add default Blocks to its fields. Also made this an option in Blocks Config window.
+- Added: Added option int Blocks Config window to toggle value block strict mode.
+- Added: Special "Common > Debug Message" Block.
+
+## Version 2.0.1 ##
+
+- Fixed: Some Container type Blocks (like the While Loop) did not execute their child Blocks.
+
+## Version 2.0.0 ##
+
+- Initial release.
